@@ -23,3 +23,30 @@ I use it on Linux, added in crontab for every minute but shall work on Windows t
 Find useful? You can donate some here. Thanks!
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7C3H5EVHXPPEA)
+
+Usage
+------
+
+Install php and curl if they are not installed yet
+Make this script executable
+
+chmode +x pip.php
+
+On Windows, scrpit can be called by (anyhow, have installed php and curl):
+
+php.exe pip.php
+
+Install https://github.com/PHPMailer/PHPMailer and provide (in script) correct path to it
+
+Fill in (the script) all your email delatils like: user, pass, server, etc
+
+Insert into crontab by:
+
+crontab -e
+
+* /10 * * * * /root/pip.php    <-- every 10 minutes
+* * * * * /root/pip.php   <-- every minute
+
+Done!
+
+
