@@ -12,7 +12,7 @@ What this script does basically automates all this process for you, meaning:
 - double check with reverse DNS (actual every IP shall have one and this is assigned by your ISP)
 - confirm current server IP with your DNS records (from GoDaddy)
 - in case of changed, update those records
-- send you a email report
+- send you a email report (using https://github.com/PHPMailer/PHPMailer)
 
 Nice!
 
