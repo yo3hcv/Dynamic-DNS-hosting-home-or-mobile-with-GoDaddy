@@ -30,7 +30,7 @@
 // Every 10 minutes    
 // * /10 * * * * /root/pip.php           <-- no space between * and /
 //
-// Every minute (are you fucking crazy?)    
+// Every minute  
 // * * * * * /root/pip.php
 //
 // View executed crons
