@@ -30,7 +30,7 @@ Usage
 Install php and curl if they are not installed yet
 Make this script executable
 
-[code]chmode +x pip.php[/code]
+chmode +x pip.php
 
 On Windows, scrpit can be called by (anyhow, have installed php and curl):
 
